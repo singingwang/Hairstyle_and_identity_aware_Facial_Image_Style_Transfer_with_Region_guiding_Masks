@@ -12,8 +12,8 @@ style-space (SSS)](https://github.com/yhlleo/SmoothingLatentSpace) model as our 
 ### Software installation
 Clone this repository:
 ```
-git clone https://github.com/
-cd stargan-v2/
+git clone https://github.com/singingwang/Hairstyle_and_identity_aware_Facial_Image_Style_Transfer_with_Region_guiding_Masks.git
+cd Hairstyle_and_identity_aware_Facial_Image_Style_Transfer_with_Region_guiding_Masks/
 ```
 Install the dependencies:
 ```
