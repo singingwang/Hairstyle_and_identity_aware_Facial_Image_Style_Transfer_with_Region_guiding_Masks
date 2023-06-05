@@ -36,8 +36,17 @@ python dataset.py
 You need to change the path (**Download** and **local_path**) defined in dataset.py as yours.
 
 ### Training networks
-To train the first stage, you just need to run the following command.
+To train the first stage, you just need to run the following command. Generated images during the training and network checkpoints for each epoch will be stored in the results/SimpleTest and models/ directories, respectively. 
 ```
 python main.py
 ```
 You can set the epoch number you want in main.py
+
+### Face Replacement Procedure
+After transfering the hairstyle adequately from the reference image in the first stage, we need to replace the output face with the face of the source image. Use Copypaste.py to generate the replaced images. 
+```
+python Copypaste.py
+```
+You need to change the source image path defined in Copypaste.py as yours.
+
+
