@@ -51,4 +51,6 @@ python Copypaste.py
 ```
 You need to change the input and output image path defined in Copypaste.py as yours.
 
-
+### License
+### Citation
+### Acknowledgements
