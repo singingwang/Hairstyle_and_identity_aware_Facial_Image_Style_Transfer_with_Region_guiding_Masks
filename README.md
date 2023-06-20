@@ -40,13 +40,15 @@ To train the first stage, you just need to run the following command. Generated 
 ```
 python main.py
 ```
-You can set the epoch number you want in main.py
+You can set the epoch number you want in main.py. We set epoch 10 in our model.
 
 ### Face Replacement Procedure
+
+![copypaste](https://github.com/singingwang/Hairstyle_and_identity_aware_Facial_Image_Style_Transfer_with_Region_guiding_Masks/assets/25973060/2cac97de-b1c6-479d-a292-2b2ee07c94a1)
 After transfering the hairstyle adequately from the reference image in the first stage, we need to replace the output face with the face of the source image. Use Copypaste.py to generate the replaced images. 
 ```
 python Copypaste.py
 ```
-You need to change the source image path defined in Copypaste.py as yours.
+You need to change the input and output image path defined in Copypaste.py as yours.
 
 
