@@ -30,6 +30,9 @@ pip install git+https://github.com/rcmalli/keras-vggface.git
 ### Dataset
 We use CelebA-HQ dataset which is downloaded from [StarGAN v2](https://github.com/clovaai/stargan-v2)
 Then use dataset.py to post-processing the facial mask and key mask
+
+![mask](https://github.com/singingwang/Hairstyle_and_identity_aware_Facial_Image_Style_Transfer_with_Region_guiding_Masks/assets/25973060/d87deb1c-baeb-4ecb-8627-38a70e2ea48c)
+
 ```
 python dataset.py
 ```
